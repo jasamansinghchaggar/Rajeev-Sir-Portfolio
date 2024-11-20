@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio - Rajeev</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="sidebar">
+            <div id="navigation_sidebar">
+                <div class="logo">
+                    <a href="/">
+                        <img src="user-png-33842.png" alt="User Image">
+                    </a>
+                </div>
+                <div class="navigation_links">
+                    <a href="#" title="About">
+                        <i class='bx bxs-user-badge icon'></i>
+                    </a>
+                    <a href="#" title="Experience">
+                        <i class='bx bxs-briefcase icon'></i>
+                    </a>
+                </div>
+            </div>
+            <div id="social_sidebar">
+                <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+            </div>
+        </div>
+        <div id="home">
+            <div class="home_image">
+                <img src="professor.png" alt="professor">
+            </div>
+            <div class="home_text">
+                <h1>Welcome to my Protfolio</h1>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Professor in ACE'],
+            typeSpeed: 80,
+            backSpeed: 80,
+            loop: -1,
+        });
+    </script>
+</body>
+
+</html>
